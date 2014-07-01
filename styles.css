@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-Jul-2014, 09:38:58
+    Author     : eamonnkillian
+*/
+
+/* ------------------------------------
+    Set up a font for the Simple Site
+    Check out www.google.com/fonts for 
+    examples of all kinds of fonts...
+--------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+/* ------------------------------------
+    We will ensure there are no margins
+    or padding set from the outset ...
+--------------------------------------- */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+/* ------------------------------------
+    And to create a major contrast we'll
+    use the font we loaded above set a 
+    background color for the whole page
+    of red, a margin to generate a border 
+    effect, a font color black and no
+    overflow (scrolling up and down, left
+    or right) ...
+--------------------------------------- */
+
+body {
+    background-color: #000;
+    color:#000;
+    font-family: 'Cabin', sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #f00;
+}
+
+a:hover {
+    color: #3333ff;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.mainContainer {
+    position: relative;
+    float: left;
+    background-color: red;
+}
+
+.mainHeader {
+    position: relative;
+    float: left;
+    background-color: green;
+}
+
+.lhsContainer {
+    position: relative;
+    float: left;
+    background-color: yellow;
+}
+
+.rhsContainer {
+    position: relative;
+    float: right;
+    background-color: lightblue;
+}
+
+.screens {
+    position: relative;
+    float: left;
+    font-size: 0.8em;
+}
+
+#screenOne {
+    background-color: #ff66ff;
+    position: absolute;
+}
+
+#screenTwo {
+    background-color: #66ffff;
+    position: absolute;
+}
+
+#screenThree {
+    background-color: #99ff99;
+    position: absolute;
+}
+
+#screenFour {
+    background-color: #ffcc99;
+    position: absolute;
+}
+
+#screenFive {
+    background-color: #cccc00;
+    position: absolute;
+}
+
+.mainFooter {
+    position: relative;
+    float: left;
+    background-color: grey;
+}
